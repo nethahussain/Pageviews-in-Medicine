@@ -277,7 +277,7 @@ fig.patches.append(plt.Rectangle(
 
 fig.text(0.06, 0.925, 'The health of health content',
          fontsize=24, fontweight='bold', fontfamily=title_font, color=ECON_DARK, va='top')
-fig.text(0.06, 0.895, 'Wikipedia medical articles, total user views across all 337 languages, bn',
+fig.text(0.06, 0.865, 'Wikipedia medical articles, total user views across all 337 languages, bn',
          fontsize=13, color=ECON_GREY, fontfamily=body_font, va='top')
 
 # Area + line
@@ -314,7 +314,7 @@ fig.text(0.06, 0.02,
          'Source: WikiProject Medicine · mdwiki.toolforge.org/views · *2025 is year-to-date',
          fontsize=9, color='#888888', fontfamily=body_font, va='bottom')
 
-plt.subplots_adjust(top=0.83, bottom=0.08, left=0.08, right=0.96)
+plt.subplots_adjust(top=0.80, bottom=0.08, left=0.08, right=0.96)
 plt.savefig('../charts/econ_global_trend.png', dpi=220, bbox_inches='tight',
             facecolor=ECON_BG, edgecolor='none')
 plt.close()
